@@ -1,0 +1,248 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#80808080;
+    color: aliceblue;
+    background: linear-gradient(#6A1E55,#CB9DF0,#EE66A6);
+}
+header{
+    width: 100%;
+    height: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-image: url(zomato.jpg);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.85;
+}
+nav a:hover{
+    opacity: 1.85;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    /* background-color: red; */
+}
+.right{
+    padding-bottom: 170px;
+}
+.left h2{
+    font-weight: bold;
+    font-size: 5rem;
+    color:rgb(255, 253, 254);
+}
+.main-content{
+    margin-top: 20rem;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.box1{
+   
+    background-image: url(download.jpg);
+
+}
+.box2{
+    background-image: url(dining.jpg);
+}
+.box3{
+    background-image: url(pickup.jpg);
+}
+.box_1{
+    background-image: url(RD.webp);
+}
+.box_2{
+    background-image: url(CVC.webp);
+}
+.box_3{
+    background-image: url(Love\ at\ pool\ side.webp);
+}
+.box_4{
+    background-image: url(Ataste\ of\ heaven.webp);
+}
+.box_5{
+    background-image: url(PpD.webp);
+}
+.box_6{
+    background-image: url(LEC.webp);
+}
+
+#img-container{
+    height: 15rem;
+    width: 25rem;
+    border: 2px solid black;
+    margin: 40px;
+    align-content: space-around;
+    border-radius: 30px;
+    background-size: cover;
+
+}
+#img-container1{
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid black;
+    margin: 40px;
+    align-content: space-around;
+    border-radius: 30px;
+    background-size: cover;
+    
+
+}
+#img-container1 h4{
+    text-align:left;
+    position: relative;
+    /* bottom: 0px; */
+    top: 152px;
+    font-size: 2rem;
+    background-color: rgb(255, 249, 249);
+    /* border-radius: 0 0 30px 30px; */
+    font-weight: 500;
+    color: black;
+    
+    
+ }
+ #img-container1 p{
+    text-align:left;
+    position: relative;
+    /* bottom: 0px; */
+    top: 152px;
+    font-size: 1rem;
+    background-color: rgb(255, 249, 249);
+    border-radius:0 0 30px 30px;
+    font-weight: 500;
+    color: rgb(245, 9, 9);
+    padding-left: 5px;
+    
+ }
+#img-container h4{
+text-align:center;
+position: relative;
+/* bottom: 0px; */
+top: 102px;
+font-size: 2rem;
+background-color: rgb(255, 249, 249);
+border-radius: 0 0 30px 30px;
+font-weight: 200;
+color: black;
+
+}
+#img-container h4:hover{
+    color: brown;
+}
+
+#img-container:hover{
+    box-shadow: 10px 10px 5px rgb(231, 226, 226);
+}
+.main-heading p{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-heading{
+    width: 100%;
+    height: 50px;
+}
+#element{
+    color: rgb(255, 255, 255);
+}
+.middle-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.heading{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    
+}
+.card{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(235, 112, 11);
+    border: 2px solid black;
+    color: black;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 25px;
+}
+.card h4,p{
+    /* text-align: center; */
+    font-size: 1.8rem;
+    /* padding-bottom: 2px; */
+}
+.card:hover{
+  
+    box-shadow: 5px 5px rgb(201, 195, 195);
+}
+footer{
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    opacity: 0.9;
+    color: #fff;
+    position:relative;
+
+}
+.footer-title{
+    font-size: 1.5rem;
+}
+footer ul{
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+}
+footer ul li{
+    margin: 10px 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #fff;
+}
+footer ul li a:hover{
+    color: #a5a3a3;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+}
+.socials a:hover{
+    font-size: 1.1rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+    gap: 20px;
+}
+.footer-list-header{
+    opacity: 0.4;
+}
