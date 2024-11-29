@@ -4,9 +4,9 @@
     margin: 0;
 }
 body{
-    background-color:#80808080;
+    /* background-color:#FF8BA7; */
     color: aliceblue;
-    background: linear-gradient(#6A1E55,#CB9DF0,#EE66A6);
+    background: linear-gradient(#004225,#FFFFFF,#000000);
 }
 header{
     width: 100%;
@@ -60,32 +60,36 @@ nav ul li{
 }
 .box1{
    
-    background-image: url(download.jpg);
+    background-image: url(./assest/download.jpg);
 
 }
 .box2{
-    background-image: url(dining.jpg);
+    background-image: url(./assest/dining.jpg);
 }
 .box3{
-    background-image: url(pickup.jpg);
+    background-image: url(./assest/pickup.jpg);
 }
 .box_1{
-    background-image: url(RD.webp);
+    background-image: url(./assest/RD.webp);
 }
 .box_2{
-    background-image: url(CVC.webp);
+    background-image: url(./assest/CVC.webp);
 }
 .box_3{
-    background-image: url(Love\ at\ pool\ side.webp);
+    background-image: url(./assest/Love\ at\ pool\ side.webp);
 }
 .box_4{
-    background-image: url(Ataste\ of\ heaven.webp);
+    background-image: url(./assest/Ataste\ of\ heaven.webp);
 }
 .box_5{
-    background-image: url(PpD.webp);
+    background-image: url(./assest/PpD.webp);
 }
 .box_6{
-    background-image: url(LEC.webp);
+    background-image: url(./assest/LEC.webp);
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
 }
 
 #img-container{
@@ -106,6 +110,7 @@ nav ul li{
     align-content: space-around;
     border-radius: 30px;
     background-size: cover;
+    transition: box-shadow 0.3s ease 0.5s;
     
 
 }
@@ -135,6 +140,9 @@ nav ul li{
     padding-left: 5px;
     
  }
+ #img-container1:hover{
+    box-shadow: 15px 15px 15px rgb(233, 220, 220);
+}
 #img-container h4{
 text-align:center;
 position: relative;
