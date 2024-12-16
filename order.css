@@ -17,6 +17,9 @@
     background-clip: text; */
 
 }
+h3{
+  color:white ;
+}
 
     
 .search-box {
@@ -73,5 +76,4 @@
   height: 300px;
   cursor: pointer;
 }
-
 
